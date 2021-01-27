@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Nginx</title>
+</head>
+
+<body>
+    <div class="wrapper"> 
+      <header class="header">
+        <div class="logo-box">
+          <i></i>
+          <span>Formulate</span>
+        </div>
+        <div class="menu">메뉴1</div>
+        <div class="menu">메뉴2</div>
+        <div class="menu">메뉴3</div>
+      </header>
+      
+      <section class="texture">        
+        <svg id="texture-svg" width="764" height="114" viewBox="0 0 764 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.24799 110V4.88H30.464C37.184 4.88 43.04 6.176 48.032 8.768C53.024 11.36 56.864 15.056 59.552 19.856C62.336 24.56 63.728 30.08 63.728 36.416V78.32C63.728 88.016 60.704 95.744 54.656 101.504C48.704 107.168 40.64 110 30.464 110H3.24799ZM30.464 98.48C36.8 98.48 41.744 96.704 45.296 93.152C48.944 89.6 50.768 84.656 50.768 78.32V36.416C50.768 30.176 48.944 25.28 45.296 21.728C41.744 18.176 36.8 16.4 30.464 16.4H16.208V98.48H30.464Z" stroke="white" stroke-width="5"/>
+          <path d="M151.224 110H90.7437V4.88H151.224V16.544H103.56V49.232H146.184V60.896H103.56V98.336H151.224V110Z" stroke="white" stroke-width="5"/>
+          <path d="M196.959 110L169.887 4.88H183.279L201.135 76.16C203.343 84.8 205.023 92.72 206.175 99.92C207.327 92.72 208.959 84.848 211.071 76.304L228.783 4.88H241.887L214.671 110H196.959Z" stroke="white" stroke-width="5"/>
+          <path d="M323.911 110H263.431V4.88H323.911V16.544H276.247V49.232H318.871V60.896H276.247V98.336H323.911V110Z" stroke="white" stroke-width="5"/>
+          <path d="M412.415 110H351.935V4.88H364.895V98.192H412.415V110Z" stroke="white" stroke-width="5"/>
+          <path d="M464.919 111.44C455.511 111.44 448.071 108.752 442.599 103.376C437.127 98 434.391 90.608 434.391 81.2V33.68C434.391 24.272 437.127 16.88 442.599 11.504C448.071 6.128 455.511 3.44 464.919 3.44C474.327 3.44 481.767 6.128 487.239 11.504C492.711 16.88 495.447 24.224 495.447 33.536V81.2C495.447 90.608 492.711 98 487.239 103.376C481.767 108.752 474.327 111.44 464.919 111.44ZM464.919 99.92C470.583 99.92 474.903 98.336 477.879 95.168C480.951 91.904 482.487 87.248 482.487 81.2V33.68C482.487 27.632 480.951 23.024 477.879 19.856C474.903 16.592 470.583 14.96 464.919 14.96C459.255 14.96 454.887 16.592 451.815 19.856C448.839 23.024 447.351 27.632 447.351 33.68V81.2C447.351 87.248 448.839 91.904 451.815 95.168C454.887 98.336 459.255 99.92 464.919 99.92Z" stroke="white" stroke-width="5"/>
+          <path d="M521.31 110V4.88H555.151C564.943 4.88 572.719 7.712 578.479 13.376C584.335 18.944 587.263 26.432 587.263 35.84C587.263 45.248 584.335 52.784 578.479 58.448C572.719 64.016 564.943 66.8 555.151 66.8H534.271V110H521.31ZM555.151 55.28C560.815 55.28 565.327 53.552 568.687 50.096C572.143 46.544 573.87 41.792 573.87 35.84C573.87 29.888 572.143 25.184 568.687 21.728C565.327 18.176 560.815 16.4 555.151 16.4H534.271V55.28H555.151Z" stroke="white" stroke-width="5"/>
+          <path d="M669.286 110H608.806V4.88H669.286V16.544H621.622V49.232H664.246V60.896H621.622V98.336H669.286V110Z" stroke="white" stroke-width="5"/>
+          <path d="M693.998 110V4.88H726.542C732.686 4.88 738.11 6.176 742.814 8.768C747.614 11.264 751.31 14.816 753.902 19.424C756.494 23.936 757.79 29.168 757.79 35.12C757.79 42.224 755.918 48.32 752.174 53.408C748.526 58.496 743.534 62 737.198 63.92L759.23 110H743.966L723.806 65.36H706.958V110H693.998ZM726.542 53.84C731.918 53.84 736.238 52.16 739.502 48.8C742.766 45.344 744.398 40.784 744.398 35.12C744.398 29.552 742.766 25.04 739.502 21.584C736.238 18.128 731.918 16.4 726.542 16.4H706.958V53.84H726.542Z" stroke="white" stroke-width="5"/>
+        </svg>
+      </section>
+
+      <section class="container block">
+        <article>
+          <button>Click me</button>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, iure? Doloremque, dolores eius, consequuntur ex excepturi animi iusto inventore non temporibus aperiam sapiente expedita ut ullam quos enim. Ratione commodi sit, corporis adipisci doloremque architecto ducimus! Vero cumque unde sunt quisquam non? Ab provident dolorum temporibus reprehenderit consectetur, voluptates reiciendis fugiat fuga, eaque culpa qui libero atque dolorem, rerum corporis ex sed enim rem aut placeat nostrum ipsa voluptatibus tempore. Fuga voluptatem nisi, iste laborum veritatis atque id totam praesentium placeat dignissimos in odit itaque inventore a iusto beatae ipsum, officiis nobis aut. Excepturi ipsa totam obcaecati amet non deleniti quaerat voluptas omnis est distinctio, odio sit nobis id dolorum voluptatem debitis vitae? Ipsum cupiditate, consequuntur consequatur corporis facere aliquid veniam nihil voluptatem asperiores, voluptate corrupti eos quisquam nostrum minima aperiam sunt. Hic eum sit fugit eligendi neque placeat, voluptatibus blanditiis cumque, pariatur deserunt quas laboriosam quos dignissimos dolorem. Iusto expedita, alias amet nemo natus totam ducimus excepturi, praesentium quod vel earum? Obcaecati, expedita quasi vel ducimus veniam fugit voluptas harum minus aliquid incidunt corrupti dolor commodi unde corporis nisi magnam, ratione iure eaque mollitia placeat, quibusdam totam officiis amet architecto! Voluptates deleniti atque, ullam voluptatem accusamus itaque. Voluptates vel minus repudiandae dolore quibusdam sapiente est quam distinctio ea ipsum cum saepe consequuntur officia, veritatis omnis numquam commodi hic quasi aperiam magnam? Nisi facere fugit corporis autem non qui provident culpa magni corrupti obcaecati laboriosam beatae, nobis eaque quibusdam ipsa dignissimos. Veritatis, totam voluptatem odio eligendi rem amet eum illo enim quia inventore rerum suscipit repudiandae non, aspernatur nulla voluptatum expedita soluta ut a eaque pariatur doloribus ad dignissimos earum! Velit, magni, perferendis maxime repudiandae expedita quam sunt veritatis magnam nobis porro autem voluptas doloribus culpa veniam, quasi suscipit blanditiis. Sed doloribus aperiam qui ut, quam quos explicabo labore voluptatem, aut enim natus pariatur repudiandae? Nobis molestiae dolorem quibusdam provident aperiam itaque eos magnam qui, excepturi illum, laboriosam magni? Accusamus ad deserunt, sunt molestiae vitae corporis repudiandae doloremque veritatis. Inventore temporibus, maiores expedita eligendi vel atque. Vero excepturi quo nobis dolorum, reiciendis id, rerum sed quos illo esse maiores repellendus. Voluptate vel esse voluptatem vero consectetur distinctio, illum libero aut. Autem consequatur quas aperiam delectus maxime earum quo, reiciendis laudantium. Nam eaque, autem quis aut ab ex nulla earum ipsa eligendi itaque tempora. Earum, quam facere voluptatibus dignissimos laudantium eum ipsam atque animi temporibus officia, sed fuga magnam molestias nobis totam soluta culpa id expedita enim placeat dolorem iste. Atque laudantium suscipit nesciunt iste ipsa enim eos hic nemo eveniet, corrupti illo eaque quos fugit, aspernatur sed labore. Maxime accusantium repellat quo mollitia velit libero, dolorum distinctio esse tenetur dolores magnam ipsum animi deleniti vero itaque recusandae molestias beatae harum minima nam facere expedita dicta. Tempora repellat tenetur veniam, natus, similique unde dignissimos, provident laudantium incidunt autem quod itaque ipsam corporis quia. Laudantium repellat veniam libero, cumque asperiores accusamus voluptates odit blanditiis, reiciendis amet quod unde quia autem. Possimus nesciunt atque necessitatibus odio quam minus temporibus. Mollitia hic quas distinctio aperiam quis quisquam harum quia! Earum unde ut, itaque rem est ea ab illum hic accusantium velit, voluptatem dolorem saepe asperiores! Facilis, dolores eius atque sunt aspernatur ex unde similique, exercitationem iusto id nemo, placeat maiores. Consectetur illum natus dolor similique mollitia animi iste voluptas ab earum, nobis ratione dolore illo quibusdam distinctio dolores magnam officiis! Similique atque, accusamus.
+        </article>
+        <nav id="navigation">
+          <article>
+            <ul>
+              <li class="nav-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, at.</li>
+              <li class="nav-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nostrum vero laborum magni dolores sequi!</li>
+            </ul>
+          <article>
+        </nav>
+        <article id="side-bar">
+          <ul class="to-do-list">
+            <li class="todo-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, totam?</li>
+            <li class="todo-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vel?</li>
+            <li class="todo-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nesciunt!</li>
+          </ul>   
+        </article>
+      </section>
+
+      <footer class="footer">
+        <div >footer 내용입니다.</div>
+      </footer>
+
+    </div>
+    
+    <script src="dist/script.js" defer></script>
+    <script src="dist/app.js" defer></script>
+  </body>
+</html>
